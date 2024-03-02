@@ -6,7 +6,7 @@ Feature: Swag Labs - Login - negative
   Scenario: AS a locked_out_user, I want to log in succesfully
     Given Afarasgali is on the login page
     When Afarasgali login with "locked_out_user_user" credential
-    Then Afarasgali should see error "epic sadgace: Sorry, this user has been locked out" 
+    Then Afarasgali should see error "epic sadface: Sorry, this user has been locked out" 
 
   Scenario: AS a problem_user, I want to log in succesfully
     Given Afarasgali is on the login page
